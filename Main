@@ -1,0 +1,7 @@
+local a = ("\x61\x62\x63"):gsub(".", function(c) return string.char(c:byte()) end)
+local b = {}
+b[a] = true
+
+return function(c)
+    return b[c] == true
+end
