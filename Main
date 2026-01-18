@@ -13,5 +13,5 @@
 ]]--
 
 return {
-    ["glinschool"] = true
+    ["mncrelease"] = true
 }
