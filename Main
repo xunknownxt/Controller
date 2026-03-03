@@ -13,5 +13,5 @@
 ]]--
 
 return {
-    ["valentines"] = true
+    ["VeryBizarre"] = true
 }
